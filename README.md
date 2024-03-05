@@ -1,4 +1,4 @@
-# chx-simple-proxy
+# crx-simple-proxy
 Simple Proxy Switcher Extension 
 
 Can accept proxy url with `http/https` with authorisation (eg. http://user:pass@127.0.0.1:8080) `socks4/socks5` without authorisation 
