@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Simple proxy switch Analyzer</title>
+    <script src="popup.js"></script>
+    <style>
+     #history ul {
+         list-style-type: none;
+         padding: 10px;
+         margin: 0;
+     }
+     .history-remove {
+         font-weight: bold;
+         text-decoration: none;
+         font-size: 0.9rem;
+     }
+    </style>
+  </head>
+  <body>
+    <h1>Proxy Switch</h1>
+    <input type="text" id="proxyAddress" style="width: 450px">
+    <input type="button" id="btn_set" value="Set">
+    <input type="button" id="btn_clear" value="Clear">
+    <span style="color:red" id="error"></span>
+    <div id="history">
+    </div>
+  </body>
+</html>

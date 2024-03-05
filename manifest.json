@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+
+  "name": "Simple Proxy Switch",
+  "description": "Simple proxy switch plugin",
+  "version": "0.2",
+  "author": "steamfor@gmail.com",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "proxy",
+    "storage",
+    "background",
+    "webRequest",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "webRequest",
+    "webRequestAuthProvider",
+    "notifications",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
+
